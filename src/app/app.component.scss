@@ -1,0 +1,47 @@
+$color-text-dark: #72809b;
+$color-text-med-dark: #919db5;
+$color-text-med: #a0aabe;
+$color-text-med-light: #d9dce1;
+$color-text-light: #f0f1f6;
+$color-text-lighter: #fff;
+
+$color-bg-darkest: #13141b;
+$color-bg-darker: #1b1e27;
+$color-bg-dark: #232837;
+$color-bg-med: #2f3646;
+$color-bg-light: #455066;
+$color-bg-lighter: #5b6882;
+
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+  ::ng-deep body {
+    font-family: 'RobotoDraft', 'Roboto', 'Helvetica Neue, Helvetica, Arial', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    letter-spacing: 0.01rem;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    
+    background: $color-bg-darker;
+    min-height: 100vh;
+    color: #666;
+    padding: 0;
+    margin: 0;
+  }
+
+main {
+    
+    div.charts-wrapper {
+        display:  flex;
+        flex-flow: row wrap;
+        justify-content: flex-start;
+        padding-left: 2%;
+    }
+}

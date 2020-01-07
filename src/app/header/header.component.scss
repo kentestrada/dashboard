@@ -1,0 +1,44 @@
+$color-text-dark: #72809b;
+$color-text-med-dark: #919db5;
+$color-text-med: #a0aabe;
+$color-text-med-light: #d9dce1;
+$color-text-light: #f0f1f6;
+$color-text-lighter: #fff;
+
+$color-bg-darkest: #13141b;
+$color-bg-darker: #1b1e27;
+$color-bg-dark: #232837;
+$color-bg-med: #2f3646;
+$color-bg-light: #455066;
+$color-bg-lighter: #5b6882;
+
+.header-wrapper {
+    position: fixed;
+    background: $color-bg-dark;
+    height: 6vh;
+    width: 100%;
+    border-bottom: $color-bg-darkest 1px solid;
+}
+
+.header-wrapper > .header-container {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.header-wrapper > .header-container > .header-logo {
+    flex-basis: 20%;
+    padding-left: 1%;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    color:#7aa3e5;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+}
+.header-wrapper > .header-container > .header-menus {
+    flex-basis: 80%;
+}
+
+.header-wrapper > .header-container > .header-menus > .header-menu {
+    display: flex;
+    justify-content: flex-end;
+}
