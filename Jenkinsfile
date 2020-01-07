@@ -4,12 +4,12 @@ pipeline {
     stages {
         stage('Test') {
             steps {
-                sh 'ng test'
+                sh 'npm run test'
             }
         }
         stage('Build') {
             steps {
-                sh 'ng build'
+                sh 'npm run build'
             }
         }
         stage('Deploy') {
